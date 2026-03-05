@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vicki's Website - Page 3</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="header">
+      <h1>Page 3 - Signup Form</h1>
+      <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="page2.html">Table Page</a>
+        <a href="page3.html">Signup Page</a>
+      </nav>
+    </div>
+
+    <div class="main-content">
+      <p>Please complete the form below.</p>
+
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Signup Form</legend>
+
+          <label for="name">Name</label><br>
+          <input type="text" id="name" name="name"><br>
+
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email"><br>
+
+          <label for="phone">Phone</label><br>
+          <input type="tel" id="phone" name="phone"><br><br>
+
+          <label>Gender</label><br>
+          <input type="radio" id="gender-female" name="gender" value="female" style="width:auto;">
+          <label for="gender-female">Female</label>
+          <input type="radio" id="gender-male" name="gender" value="male" style="width:auto; margin-left:12px;">
+          <label for="gender-male">Male</label><br><br>
+
+          <label for="contact">Preferred Contact Method</label><br>
+          <select id="contact" name="contact">
+            <option value="email">Email</option>
+            <option value="phone">Phone</option>
+            <option value="text">Text Message</option>
+          </select><br>
+
+          <label for="comments">Comments</label><br>
+          <textarea id="comments" name="comments" rows="5" cols="40"></textarea><br>
+
+          <button type="submit">Sign Up</button>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

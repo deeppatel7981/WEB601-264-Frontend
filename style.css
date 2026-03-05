@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  line-height: 1.6;
+}
+
+.main-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 20px;
+}
+
+.header h1 {
+  color: #333;
+  font-size: 2.5em;
+}
+
+.nav-menu {
+  margin-top: 16px;
+}
+
+.nav-menu a {
+  display: inline-block;
+  margin: 0 8px;
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: bold;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  text-align: center;
+}
+
+.main-content img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.main-content p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px 12px;
+}
+
+form {
+  margin-top: 24px;
+  text-align: left;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+input,
+select,
+textarea,
+button {
+  margin-top: 6px;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  max-width: 420px;
+}
+
+button {
+  width: auto;
+  background: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
