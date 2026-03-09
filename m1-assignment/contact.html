@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seattle Pet Adoption Center - Contact</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Seattle Pet Adoption Center</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pets.html">Available Pets</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contact Us</h2>
+      <p>Have questions about adoption? Fill out the form and our team will reach out.</p>
+    </section>
+
+    <section>
+      <h3>Adoption Inquiry Form</h3>
+      <form action="#" method="post">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="pet-interest">Pet You Are Interested In</label>
+        <select id="pet-interest" name="pet-interest">
+          <option value="cool-scooby">Cool Scooby</option>
+          <option value="cool-boy">Cool Boy</option>
+          <option value="my-furrr">My Furrr</option>
+          <option value="my-glass">My Glass</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Seattle Pet Adoption Center. All rights reserved.</p>
+    <p>This is an educational project for WEB601 at Westcliff University.</p>
+  </footer>
+</body>
+</html>
